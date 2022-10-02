@@ -3,7 +3,7 @@
 // Const won't work here, only var.
 /* eslint no-var: "off" */
 
-var nodes = [
+export var nodes = [
   {
     id: 1,
     label: "Abdelmoumene Djabou",
@@ -6766,7 +6766,7 @@ var nodes = [
   },
 ];
 // create an array with edges
-var edges = [
+export var edges = [
   { from: 1, to: 15 },
   { from: 1, to: 97 },
   { from: 1, to: 108 },
