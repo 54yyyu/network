@@ -1,4 +1,4 @@
-import {nodes, edges} from 'WorldCup2014.js';
+import {nodes, edges} from './WorldCup2014.js';
 
 var network;
 
